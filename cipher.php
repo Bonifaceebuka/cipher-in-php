@@ -29,13 +29,9 @@
 
 	$str_var = 'I am not a man';
 
-	$out = decryptor($str_var);
+	$out = encryptor($str_var); // this outputs the encrypted version of 'I am not a man'
 	print_r($out);
-	// What you see here is an answer to an assessment question for Php back-end developer's job given to me on "date"
-	// Hi, I am Agbo Boniface Ebuka. This is a php function that will encode words using the following rules:
-	// To be able to use this source code, just clone the repository and drop the files in your XAMPP or WAMPP directory and access it like this localhost/encrytor.php for the encryptor or localhost/dencrytor.php for the decryption function.
-
-	// Thanks and Happy coding
+	
 
 
 ?>
